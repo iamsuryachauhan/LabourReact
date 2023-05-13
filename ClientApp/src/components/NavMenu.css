@@ -1,0 +1,70 @@
+﻿.MainHome {
+    /* background-color:white; */
+    height: 100%;
+    /* background-image: url("D:\React\Redux\protectpage\src\Images\back.png");
+    background-repeat: "no-repeat";
+    background-size: "cover";
+    */
+}
+
+.Linkbar {
+    display: grid;
+    font-size: larger;
+}
+
+menu {
+    background-color: #bcbeeb;
+    width: fit-content;
+}
+
+.Linkbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    margin-left: 3%;
+    width: 12%;
+}
+
+.Logobar {
+    display: flex;
+    /* background-color:  #f7d022; */
+    background-color: #585353;
+    ;
+}
+
+.Headinglogo {
+    font-size: xx-large;
+    font-weight: 900;
+    /* background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #756b0a); */
+    background: #f7d022;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 1%;
+    margin-left: 2%;
+    /* font-family: auto; */
+    font-family: Helvetica-Neue, Arial, Helvetica, sans-serif;
+    padding: 1p
+}
+
+
+/* ul li {display: flex;} */
+ul li:hover {
+    background: #555;
+    transition-duration: 1.5s;
+}
+/* ul li:hover ul {display: block;} */
+/* ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+} */
+/* ul li ul li { 
+    background: #555; 
+    display: block; 
+  } */
+/* ul li ul li a {display:block !important;} 
+  ul li ul li:hover {background: #666;} */
